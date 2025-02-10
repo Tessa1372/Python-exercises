@@ -2,7 +2,7 @@ from datetime import datetime
 from dataclasses import dataclass
 from typing import List, Dict
 
-@dataclass
+@dataclass #decorator
 class Transaction_details:
     time: datetime
     transaction_method: str
