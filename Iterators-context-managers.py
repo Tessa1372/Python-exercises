@@ -23,7 +23,7 @@ class NestedIterator:
 nested_list = [[2, 4], [1, 6], [5]]
 iterator = NestedIterator(nested_list)
 for num in iterator:
-    print(num)
+    print(num,"", end="")
 
 
 # Context Manager problem
