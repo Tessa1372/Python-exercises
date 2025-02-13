@@ -43,7 +43,7 @@ class FileHandler:
             self.file.close()  
 
 
-with FileHandler("anyfile.txt", "w") as file:
+with FileHandler("anyfile.txt", "a") as file:
     file.write("Hello, this text is written using a context manager!")
 
 print("File written successfully and closed automatically.")
